@@ -1,0 +1,43 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 1550px 725px;
+}
+
+#headder{
+    margin-top: 150px;
+    color: white;
+}
+
+#icon{
+    width: 75px;
+}
+
+#logout_room{
+    float: right;
+    margin-top: -50px;
+    margin-right: 180px;
+    font-size: 20px;
+}
+
+#room_name{
+    width: 50%;
+}
+
+h2{
+    color: white;
+}
+
+#add_room{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+#output{
+    color: white;
+}
+
+#welcome_message{
+    color: white;
+    font-size: 25px;
+}

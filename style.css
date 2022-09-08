@@ -1,0 +1,22 @@
+body{
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#headder{
+    margin-top: 150px;
+    color: white;
+}
+
+#icon{
+    width: 75px;
+}
+
+#logo{
+    width: 100px;
+}
+
+#main{
+    margin-left: 500px;
+    color: white;
+}

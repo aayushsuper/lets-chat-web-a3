@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Let's Chat Web App
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="chattery_chat_page.css">
+        <script src="chattery_chat_page.js"></script>
+    </head>
+    <body background="Background image.jpg">
+        <button id="logout_room" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">    Logout</button>
+        <center>
+            <h1 id="headder">
+                Let's Chat Web App
+                <sup>
+                    <img id="icon" src="chat icon.jpg">
+                </sup>
+            </h1>
+            <div id="message_output"></div>
+            <br>
+            <br>
+            <div id="message_div" class="col-lg-12 col-md-6 col-sm-3 col-xs-3">
+                <label>
+                    Send:
+                </label>
+                <br>
+                <input id="msg" type="text" placeholder="Hello!" class="form-control">
+                <br>
+                <button id="send" onclick="send()" class="btn btn-success">Send</button>
+            </div>
+        </center>
+    </body>
+</html>
